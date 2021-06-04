@@ -1,0 +1,133 @@
+body{
+    margin: 0 auto;
+    position: relative;
+}
+.main {
+    position: absolute;
+    width: 400px;
+    
+    
+}
+.img {
+    margin: 30px 0px 0px 240px ;
+    height: 100px;
+    width: 200px;
+}
+.inner:before{
+    display: inline-block;
+    margin-top: -45px;
+    content: url(https://i.imgur.com/ejvnRiF.png);
+}
+
+.inner {
+    width: 100%;
+    height: 57px;
+    top: 0px;
+    left: 35%;
+    position: absolute;
+    text-align: center;
+    background: #5dce8c;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .1);
+}
+
+input{ 
+ 
+   
+    background:  #faf9f9;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .1);}
+
+.inner h4 {
+    margin: 0;
+   
+    font-weight: 300;
+    font-size: 20px;
+   
+    font-family: 'Cormorant Garamond', serif;
+ }
+
+.container {
+    top: 100px;
+    left: 30%;
+    position: absolute;
+    width: 500px;
+    color: gray;
+
+}
+   
+.container div{
+    margin-right: 20px;
+    float: left;
+    font-family: SourceSansPro-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+} 
+ 
+button{
+
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+  transition: 0.2s;
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+   
+    background: #cbe6c3;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .1);
+}
+
+.imgg{
+  
+    width: 30px;
+    height: 30px;
+    background-image: url(https://img.icons8.com/metro/452/calendar.png);
+    float: right;
+    padding-left: 20px;
+}
+
+label {
+    margin-bottom: 7px;
+    float: left;
+    color: rgb(26, 26, 26);
+   
+    
+}
+
+
+.persinfo{
+    display: flex;
+    
+}
+.persinfo div{
+    width: 44%;
+    
+}
+ .dr{
+    display: flex;
+    flex-flow: column ;
+ }
+
+ .birth {
+     width: 100%;
+     height: 50%;
+ }
+ select{
+     
+    background: #faf9f9;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, .1);
+ }
+
+.reg{
+
+    position: bottom;
+}
+.chel{
+    color: black;
+    background-color: rgba(128, 235, 101, 0.637);
+    border-radius: 10px;
+}
