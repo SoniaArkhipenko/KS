@@ -16,7 +16,7 @@ body{
 .inner:before{
     display: inline-block;
     margin-top: -45px;
-    content: url(https://i.imgur.com/ejvnRiF.png);
+   
 }
 
 .inner {
